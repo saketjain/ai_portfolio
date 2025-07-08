@@ -10,3 +10,4 @@ pytesseract
 keras-ocr
 tensorflow==2.10
 easyocr
+imutils
