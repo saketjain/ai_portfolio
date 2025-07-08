@@ -1,0 +1,12 @@
+numpy<2.0
+ultralytics>=8.3.4
+opencv-python
+matplotlib
+torch>=1.8  # Or your desired version, depending on GPU/CPU setup
+scikit-image
+lap
+filterpy
+pytesseract
+keras-ocr
+tensorflow==2.10
+easyocr

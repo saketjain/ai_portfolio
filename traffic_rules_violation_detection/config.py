@@ -1,0 +1,1 @@
+base_path = './traffic_rules_violation_detection'
