@@ -7,7 +7,7 @@ red_range = get_hsv_range([0, 0, 255])
 green_range = get_hsv_range([0, 255, 0])
 orange_range = get_hsv_range([0, 165, 255])
 
-def traffic_light_color(traffic_light_image):
+def detect_red_light(traffic_light_image):
 
     red_mask = cv2.inRange(traffic_light_image, red_range[0], red_range[1])
     green_mask = cv2.inRange(traffic_light_image, green_range[0], green_range[1])

@@ -40,8 +40,7 @@ This project leverages object detection, traffic signal analysis, and automatic 
 ```bash
 .
 ├── models/                   # Pre-trained weights for detection
-├── data/                     # Sample videos and test frames
-├── violations/              # Output folder for violation captures
+├── assets/                   # Sample videos and test frames
 ├── red_light_detector.py     # Detects red light status
 ├── vehicle_tracker.py        # Tracks vehicles and stop line crossing
 ├── license_plate_reader.py   # OCR module for plate recognition
